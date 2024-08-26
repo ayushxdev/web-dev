@@ -1,0 +1,155 @@
+In web dev section there is some basic jargon we must know to get strated with these
+in this basic part we will se the baisc part of the interent and go along with the html too
+0> interent
+ a> there is url we type in the browser and that will hit yo the servers and that will help to show us something that's frontend 
+ b> and the server thing is nothing but part of backend the part we are unware of ,
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+1> basics of html 
+ a> html bolyler plate code that's the imp part of the code without that we code can;t be executed
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <link rel="stylesheet" href="app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html and css</title>
+ </head>
+ <body>
+  HELLO WORLD
+  <H1>hello WORLD</H1>
+  <h2>HELLO</h2>
+  <b>hello</b>
+  <span>hello</span> 
+  <span>world</span>
+  <div>heloo</div>
+  <div>world</div>
+  <i>hello </i>
+  <i>world</i>
+  <em>hello</em>
+  <em>world</em>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dignissimos.</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia id, commodi sequi quidem necessitatibus ipsam incidunt dolorum veritatis reiciendis corporis.</p>
+  <hr>
+</body>
+ </html>
+ b> above bolyler plate code can we use by with just "!",
+ c> now there is many tags that will perforn many tasks 
+ d> html doesn't know space we can add it by <br> tag only 
+ e> <hr> tag is used for horizontal line only 
+ f> title and head is used for seo of the website that is search engine optimization 
+ g> now there are 2 elements in html that is 
+    1> block level elements ----> (imp)
+    that's take the whole line (examample is div,p,em etc )
+    means the next line start from the next line in the browser
+    2> inline elements ---->
+    that take only the space it's imp to take that' the inline elements
+    means the next  line strat froom the next word of the prv thing (example em ,span,b,a,i)
+h> em and i tag i tag in inline tag  and em is block level element tag
+I> in the html tag we write the whole code in body tag that we see in the browser  
+j> <p></p> is used as paragraph tag
+----------------------------------------------------------------------------------------------------------------------------------------------  
+2> basic tags of html 
+a> anchor tag --->
+  1>we use it to to hyperlink anytext and use that link 
+  2>more over we have to give target-blank cz we want to change the tab when we click on the link (imp)
+practical -->
+ <a href="http:/www.google.com" target="_blank"> <p>hey this is google</p> </a>
+b> there is abriziation(abbr) tag ---> (imp)
+ 1>when we hover on the link it shows the text
+ 2>we have to write the text only
+ prctical -->
+<a href="http:/www.google.com" target="_blank"> <abbr title="this is google ">  <p>hey this is google</p> </abbr></a>
+c> list in html 
+there is two type of list in html :-->
+and there is listed item in the oder and unorder lists
+a> order list (with numbers) (ol)
+b> unoder list(with bullets)(ul)
+ 
+practical--> 
+ <ul>
+  <li>banana</li>
+  <li>mango</li>
+  <li>apple</li>
+ </ul>
+ ---------------------------------
+ <ol>
+  <li>banana</li>
+  <li>apple</li>
+  <li>mango</li>
+ </ol>
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+ d> IMg tag --video tag --and audio--tag
+   a> in img tag there is src but altr is used when the link of the img tag is not working properly and alt shows the msg if src is not working
+   b> in audio and video has controls that is use to give control over the mp4 and mp3 and that's all 
+ <img src="" >
+ <audio src=" " controls muted></audio>
+ <video src="" controls muted></video>
+ E> table in html 
+  a> table - >
+  <table>
+    <tr> --- ==> visual represtraion of the row
+      <td>mango</td>
+      <td>apple</td>
+      <td>guava</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </table>
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+3> Forms in html
+  a> <form action="" method="post">CONTACT US
+  b> <div> name :<input  required  type="text"></div> 
+  C> <div> wanna be happy :  <input type="button" value="happy index "> </div> 
+  d>  <div> are you happy eith me ? <input type="checkbox" name="happy or not" id="cheacking"></div> 
+  e> <div> wnanna go out in which date ?<input type="date" name="go out date" id="cheacking"></div>
+  f><div>  give your emial:<input type="email" name="mail" id="cheacking"> </div> 
+  g> <div> <fieldset>
+    <legend>mode of banking </legend>
+    payment:<input type="radio" name="payment" id="cash">cash
+  <input type="radio" name="payment" id="crypto">crypto
+</fieldset>
+ </div> 
+  h> <div> Gender: <select name="choosing the gender" id="gender">
+    <option value="male">male</option>
+    <option value="female">female</option>
+    <option value="trans">transgender</option>
+  </select>
+  i> <div>
+     Adhar card : <input type="file" name="adhar card" id="verfication">
+  </div>
+  j> message :<textarea name="coments" id="mindset" placeholder="enter your msg" cols="60" rows="10"></textarea>(imp)
+   <hr>
+  k> <div><input type="submit" value="submit"></div> 
+  </form>
+  ----------------------------------------------------------------------------------------------------------------------------------------------
+some imp things about FORMS :-->
+1>  in <form action=" "></form> ==>action te backend r link dite hbe 
+2> option r modhe theke choose krte hle <select name="" id=""></select> use krte hoi
+tar por <option value=""></option> dite hoi 
+3> input r por "required" use krle ja kichu diye submit kora jabe na fill up krtei hbe 
+4> backend system r sathe connect kora thakle  (method="post)" dite hbe then backend e jabe noi le possible na (imp)
+5> fieldset dile box banano jae 
+6> <fieldset></fieldset> r modhe <legend></legend> use krle box r opor amara dekhte pabo 
+----------------------------------------------------------------------------------------------------------------------------------------------
+some extra topics :->
+1> sementic tag :->(header,footer,navbar,section etc)
+   it's like <div></div> tag with id and class but we use it just to  increase the read ability of the code
+   ex:-> <nav></nav>  or <div id="navbar"></div> both are same 
+2> now the question is what's id and class ?
+   a>id: is the name of the class from what we can find out  the div and differtiate from others
+   
+   b>class:-> class can be same but id can't be same 
+   let's there is 2 section in website so there will the same class name section and 2 ids are 
+   1> section 1
+   2> section 2
+   ex:-> <div id="section 1" class="section"> ayush</div>
+        <div id="section 2" class="section">basak</div>
+---------------------------------------------------------------------------|-------------------------------------------------------------------
+ 
+   
+
+  
+  
